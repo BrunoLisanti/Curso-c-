@@ -1,0 +1,17 @@
+
+A ver q hay q hacer ⭐⭐⭐
+
+El destructor tiene que, disminuir el numero de referencias y cuando este llegue a cero eliminar el puntero.
+
+Donde esta el numero de referencias????? En cada objeto???
+Nop, en una structura aparte.
+
+Instancio un objeto
+string s = "a";
+
+El puntero que apunta a "a" ahora tiene un usuario.
+
+Voy a la estructura, ¿Cómo reflejo esto? ¿Alguna especie de lista?
+
+Creo un objeto que tenga ptr + cantidad de usuarios.
+

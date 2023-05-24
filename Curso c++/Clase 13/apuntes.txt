@@ -1,0 +1,25 @@
+Dudas en el aire:
+
+¿Se indexa un map sin necesidad de alguna función como push_back?
+
+Particularidades de un Vector:  Tiene elementos continuos en memoria.
+
+                                Rápido acceso a elementos.
+                                
+                                Eliminar e insertar es un bardo porque tenés que mover todo el resto
+                                de elementos
+                                
+                                
+
+Particularidades de un Array: No se le puede cambiar el tamaño.
+
+Particularidades de un List:    Tiene elementos que no están necesariamente continuos en memoria, pero
+                                Cada uno cuenta con punteros que apuntan a los elementos adyacentes.
+                                
+                                Al tener que almacenar punteros también, cada elemento pesa mas.
+                                
+                                Tiene que iterar por cada elemento hasta llegar al que se quiere
+                                seleccionar, es lento.
+                                
+                                Es muy facil y rapido eliminar o insertar elementos, es simplemente 
+                                cambiar dos punteros, es de complejidad constante.
